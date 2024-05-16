@@ -47,7 +47,6 @@ function setMemory() {
 
         if (data.memories[index].type === "html") {
 
-
             $(document).ready(function () {
                 $('.asset').load('assets/' + data.memories[index].asset);
             });
