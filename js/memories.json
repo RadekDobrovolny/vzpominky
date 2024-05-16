@@ -1,28 +1,28 @@
 {
   "memories": [
     {
-      "id": 1,
+      "id": 0,
       "type": "image",
       "title": "Frňáková hora",
       "asset": "frnakova-hora.png",
       "comment": ""
     },
     {
-      "id": 2,
+      "id": 1,
       "type": "youtube",
       "title": "Hliník, Máj",
       "asset": "https://www.youtube.com/embed/jUsBltdtEG0",
       "comment": ""
     },
     {
-      "id": 3,
+      "id": 2,
       "type": "audio",
       "title": "Firth of Fifth",
       "asset": "firth-of-fifth-intro.mp3",
       "comment": ""
     },
     {
-      "id": 4,
+      "id": 3,
       "type": "html",
       "title": "",
       "asset": "co-muze-byt.html"
