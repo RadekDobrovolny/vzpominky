@@ -26,8 +26,6 @@ function setMemory() {
 
         if (data.memories[index].type === "youtube") {
             let iframe = document.createElement('iframe');
-            iframe.width = 700;
-            iframe.height = 500;
             iframe.src = data.memories[index].asset;
 
             assetDiv.appendChild(iframe);

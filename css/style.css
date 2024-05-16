@@ -40,6 +40,11 @@ h1 {
     cursor: pointer;
 }
 
+.asset iframe {
+        width: 700px;
+        height: 500px;
+    }
+
 button {
     margin-bottom: 30px;
 }
