@@ -8,9 +8,18 @@ document.addEventListener('DOMContentLoaded', function () {
     setMemory();
 });
 
+let history = [-1, -1];
+
 function setMemory() {
     $.getJSON('js/memories.json', function (data) {
+
         let index = Math.floor(Math.random() * data.memories.length);
+        while (history.includes(index)) {
+            index = Math.floor(Math.random() * data.memories.length);
+        }
+        history.shift();
+        history.push(index);
+
         let assetDiv = document.querySelector('.asset');
 
         assetDiv.innerHTML = '';
