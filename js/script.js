@@ -13,13 +13,22 @@ let history = JSON.parse(localStorage.getItem('history')) || [-1, -1, -1];
 function setMemory() {
     $.getJSON('js/memories.json', function (data) {
 
-        let index = Math.floor(Math.random() * data.memories.length);
-        while (history.includes(index)) {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const memory = +urlParams.get('vzpominka');
+
+        let index;
+        if (memory > 0 && memory <= data.memories.length) {
+            index = memory - 1;
+        } else {
             index = Math.floor(Math.random() * data.memories.length);
+            while (history.includes(index)) {
+                index = Math.floor(Math.random() * data.memories.length);
+            }
+            history.shift();
+            history.push(index);
+            localStorage.setItem('history', JSON.stringify(history));
         }
-        history.shift();
-        history.push(index);
-        localStorage.setItem('history', JSON.stringify(history));
 
         let assetDiv = document.querySelector('.asset');
 
