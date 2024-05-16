@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setMemory();
 });
 
-let history = [-1, -1];
+let history = JSON.parse(localStorage.getItem('history')) || [-1, -1, -1];
 
 function setMemory() {
     $.getJSON('js/memories.json', function (data) {
@@ -19,6 +19,7 @@ function setMemory() {
         }
         history.shift();
         history.push(index);
+        localStorage.setItem('history', JSON.stringify(history));
 
         let assetDiv = document.querySelector('.asset');
 
