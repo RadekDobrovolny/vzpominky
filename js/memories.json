@@ -147,6 +147,11 @@
       "type": "html",
       "title": "",
       "asset": "osod.html"
+    },
+    {
+      "type": "html",
+      "title": "",
+      "asset": "diplom.html"
     }
   ]
 }
