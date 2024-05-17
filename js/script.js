@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setMemory();
 });
 
-let history = JSON.parse(localStorage.getItem('history')) || [-1, -1, -1];
+let history = JSON.parse(localStorage.getItem('history')) || [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
 
 function setMemory() {
     $.getJSON('js/memories.json', function (data) {

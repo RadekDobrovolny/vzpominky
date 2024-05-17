@@ -21,6 +21,11 @@
       "asset": "co-muze-byt.html"
     },
     {
+      "type": "html",
+      "title": "",
+      "asset": "123.html"
+    },
+    {
       "type": "audio",
       "title": "Light My Fire",
       "asset": "light-my-fire.mp3"
@@ -124,6 +129,11 @@
       "type": "image",
       "title": "Záchod",
       "asset": "zachod.png"
+    },
+    {
+      "type": "image",
+      "title": "Hrob",
+      "asset": "hrob.png"
     }
   ]
 }
