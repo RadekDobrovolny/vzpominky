@@ -152,6 +152,21 @@
       "type": "html",
       "title": "",
       "asset": "diplom.html"
+    },
+    {
+      "type": "html",
+      "title": "",
+      "asset": "poznamky.html"
+    },
+    {
+      "type": "html",
+      "title": "",
+      "asset": "slavnost.html"
+    },
+    {
+      "type": "html",
+      "title": "",
+      "asset": "vynalezy.html"
     }
   ]
 }
