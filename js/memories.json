@@ -1,31 +1,129 @@
 {
   "memories": [
     {
-      "id": 0,
       "type": "image",
       "title": "Frňáková hora",
-      "asset": "frnakova-hora.png",
-      "comment": ""
+      "asset": "frnakova-hora.png"
     },
     {
-      "id": 1,
       "type": "youtube",
       "title": "Hliník, Máj",
-      "asset": "https://www.youtube.com/embed/jUsBltdtEG0",
-      "comment": ""
+      "asset": "https://www.youtube.com/embed/jUsBltdtEG0"
     },
     {
-      "id": 2,
       "type": "audio",
       "title": "Firth of Fifth",
-      "asset": "firth-of-fifth-intro.mp3",
-      "comment": ""
+      "asset": "firth-of-fifth-intro.mp3"
     },
     {
-      "id": 3,
       "type": "html",
       "title": "",
       "asset": "co-muze-byt.html"
+    },
+    {
+      "type": "audio",
+      "title": "Light My Fire",
+      "asset": "light-my-fire.mp3"
+    },
+    {
+      "type": "audio",
+      "title": "Jan Oskar Reba",
+      "asset": "jan-oskar-reba.mp3"
+    },
+    {
+      "type": "youtube",
+      "title": "Tanini, Tanini",
+      "asset": "https://www.youtube.com/embed/oEA9waUWAhY"
+    },
+    {
+      "type": "youtube",
+      "title": "Největší Magor",
+      "asset": "https://www.youtube.com/embed/J_grSQq8H6c"
+    },
+    {
+      "type": "audio",
+      "title": "Lebeka Demo",
+      "asset": "lebeka-demo.mp3"
+    },
+    {
+      "type": "audio",
+      "title": "Britpop Full Blast",
+      "asset": "britpop-full-blast.mp3"
+    },
+    {
+      "type": "image",
+      "title": "BarrKlub Kapela",
+      "asset": "barrklub-kapela.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Dvahlav",
+      "asset": "dvahlav.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Dávná Oslava",
+      "asset": "davna-oslava.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Improtřesk 2017",
+      "asset": "improstrest-2017.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Kewl Maxa Kids",
+      "asset": "kewl-maxa-kids.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Man-Machine v5",
+      "asset": "man-machine-v5.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Man-Machine v5",
+      "asset": "man-machine-v5.jpg"
+    },
+    {
+      "type": "image",
+      "title": "S Brundibárem",
+      "asset": "s-brundibarem.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Younglings on Malta",
+      "asset": "younglings-on-malta.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Zázemí 2017",
+      "asset": "zazemi-srpen-2017.jpg"
+    },
+    {
+      "type": "image",
+      "title": "Angry Keyboardist",
+      "asset": "angry-keyboardist.png"
+    },
+    {
+      "type": "image",
+      "title": "Maulface",
+      "asset": "maulface.png"
+    },
+    {
+      "type": "image",
+      "title": "Pohádková Zahrádka",
+      "asset": "pohadkova-zahradka.png"
+    },
+    {
+      "type": "image",
+      "title": "Studánka",
+      "asset": "studanka.png"
+    },
+    {
+      "type": "image",
+      "title": "Záchod",
+      "asset": "zachod.png"
     }
   ]
 }

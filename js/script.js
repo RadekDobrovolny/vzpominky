@@ -17,7 +17,7 @@ function setMemory() {
         const urlParams = new URLSearchParams(queryString);
         const memory = +urlParams.get('vzpominka');
 
-        let index;
+        let index = -1;
         if (memory > 0 && memory <= data.memories.length) {
             index = memory - 1;
         } else {
