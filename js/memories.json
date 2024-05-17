@@ -137,6 +137,16 @@
     },
     {
       "title": "PROMIŇTE ALE NEVÍM CO SEM NAPSAT, A JAK ZRUŠIT SEJVNUTÍ."
+    },
+    {
+      "type": "html",
+      "title": "",
+      "asset": "jmena-aut.html"
+    },
+    {
+      "type": "html",
+      "title": "",
+      "asset": "osod.html"
     }
   ]
 }
