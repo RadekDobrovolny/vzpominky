@@ -1,0 +1,25 @@
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="image" src="assets/studanka.png" alt="Studánka"></div>
+        <div class="swiper-slide"><img class="image" src="assets/pohadkova-zahradka.png" alt="Pohádková Zahrádka"></div>
+        <div class="swiper-slide"><img class="image" src="assets/angry-keyboardist.png" alt="Angry Keyboardist"></div>
+        <div class="swiper-slide"><img class="image" src="assets/younglings-on-malta.jpg" alt="Younglings on Malta"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>

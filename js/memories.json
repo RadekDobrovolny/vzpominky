@@ -167,6 +167,11 @@
       "type": "html",
       "title": "",
       "asset": "vynalezy.html"
+    },
+    {
+      "type": "gallery",
+      "title": "Titulek Galerie",
+      "asset": "gallery.html"
     }
   ]
 }

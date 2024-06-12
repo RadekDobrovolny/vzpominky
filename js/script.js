@@ -67,7 +67,13 @@ function setMemory() {
             $(document).ready(function () {
                 $('.asset').load('assets/' + data.memories[index].asset);
             });
+        }
 
+        if (data.memories[index].type === "gallery") {
+
+            $(document).ready(function () {
+                $('.asset').load('assets/' + data.memories[index].asset);
+            });
         }
 
         document.getElementById("title").innerHTML = data.memories[index].title;
