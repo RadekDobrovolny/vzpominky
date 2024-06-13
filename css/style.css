@@ -78,6 +78,10 @@ button {
     font-style: normal;
 }
 
+.swiper-slide img {
+    padding-bottom: 40px;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         width: 85%;
